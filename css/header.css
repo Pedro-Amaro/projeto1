@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header {
+    height: 100vh;
+    background-image: url(../Img/02.-kym-ellis-unsplash-1100x560.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.conteudo {
+    width: 1200px;
+    position: relative;
+}
+
+.menu{
+    display: flex;
+    position: fixed;
+    width: 85%;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-transform:uppercase;
+    left: 10%
+}
+.logo {
+    color:#669900;
+    position: absolute;
+    left: 68%;
+    top: 5%;
+    text-transform: uppercase;
+}
+.menu ul {
+    list-style: none;
+    display: flex; 
+}
+.menu ul li {
+    margin-left: 20px;
+}
+.menu ul li a{
+    color:  #cc2900;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration:underline;
+}
+
+
+
+.header .conteudo{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+}
+
+#titulo{
+    position: absolute;
+    bottom: 0;
+    left: 64%
+}
+
+.titulo {
+    /*margin-bottom: 100px;*/
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#historia{
+    background-color: #c9c9c9;
+    padding: 100px ;
+    text-align: center;
+}
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#todos-qualidades{
+    height: 500px;
+    background-image: url('../Img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fundo{
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#produtos  {
+    text-align: center;
+    padding: 100px 0;
+    
+}
+#produtos .conteudo>div{
+    display: flex;
+}
+.vinho{
+    margin-left: 330px;
+}
+.item-vinho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.conteudo > div{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#rodape {
+   display: flex;
+   justify-content: center; 
+   margin-left: 15px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Cormorant SC', serif;
+    background-image: url('../Img/contato.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contato-titulo{
+    display: flex;
+    text-align: center ;
+    flex-direction: column;
+    color: #1d1b9d;
+    margin-top: 5%;
+    background: none;
+}
+    
+
+#contato-topo {
+    border: 2px solid #bd421d;
+    background-color: #0facf0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+
