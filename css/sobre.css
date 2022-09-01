@@ -7,3 +7,16 @@
         background-position: center;
         background-attachment: fixed;
  }
+
+ #historia-vinhos {
+        display: flex;
+        text-align: center ;
+        flex-direction: column;
+        color: #8d0b0b;
+        margin-top: 5%;
+        background: none;
+ }
+
+ .texto{
+        color: rgb(223, 7, 108);
+ }
