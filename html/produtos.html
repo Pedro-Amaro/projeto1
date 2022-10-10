@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/produtos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
     <script src="https://kit.fontawesome.com/58ecc25a44.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Dancing+Script:wght@500&family=Edu+VIC+WA+NT+Beginner&family=Great+Vibes&display=swap');
     </style>
 </head>
 <body>
     <main>
-        <div class="container">
+        <div class="container" id="img">
             <header class="d-flex justify-content-center py-3">
               <div>
 
@@ -29,7 +30,7 @@
             </header>
           </div>
 
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false" >
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -43,7 +44,7 @@
                 aria-label="Slide 5"></button>
             </div>
 
-            <div class="carousel-inner">
+            <div class="carousel-inner" >
               <div class="carousel-item active">
                   <a data-bs-toggle="modal" data-bs-target="#modal-img0"> <img src="../Img/Vinhos-Portugueses.jpg" class="d-block w-100" alt="..." height="850px"></a>
                    <div class="carousel-caption d-none d-md-block">
@@ -52,7 +53,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item active">
+              <div class="carousel-item ">
                 <a data-bs-toggle="modal" data-bs-target="#modal-img1"> <img src="../Img/Vinhos-Franceses.jpg" class="d-block w-100" alt="..." height="850px"></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Vinhos-Franceses</h5>
@@ -60,7 +61,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item active">
+              <div class="carousel-item ">
                 <a data-bs-toggle="modal" data-bs-target="#modal-img2"> <img src="../Img/vinhos-italianos.jpg" class="d-block w-100" alt="..." height="850px"></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Vinhos-italianos</h5>
@@ -68,7 +69,7 @@
                 </div>
               </div>
 
-              <div class="carousel-item active">
+              <div class="carousel-item ">
               <a data-bs-toggle="modal" data-bs-target="#modal-img3"> <img src="../Img/vinhos-espanhois-1200x900.jpg" class="d-block w-100" alt="..." height="850px"></a>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Vinhos-Espanhois</h5>
@@ -76,7 +77,7 @@
               </div>
               </div>
 
-              <div class="carousel-item active">
+              <div class="carousel-item ">
                 <a data-bs-toggle="modal" data-bs-target="#modal-img4"> <img src="../Img/Vinhos-Alemães.jpg" class="d-block w-100" alt="..." height="850px"></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Vinhos-Alemães</h5>
@@ -99,56 +100,56 @@
           <hr>
           <hr>
 
-          <main>
+          <main id="assinatura">
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
               <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm">
                   <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="60905">Cadete</h4>
+                    <h4 class="my-0 fw-normal" _msthash="1615172" _msttexthash="60905">Junior</h4>
                   </div>
                   <div class="card-body">
                     <h1 class="card-title pricing-card-title" _msthash="1615068" _msttexthash="79339">$0<small class="text-muted fw-light" _istranslated="1">/mês</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li _msthash="1935700" _msttexthash="476970">1 usuários incluídos</li>
                       <li _msthash="1935830" _msttexthash="374335">Recolher no local designado</li>
                       <li _msthash="1935960" _msttexthash="309010">Suporte por e-mail</li>
-                      <li _msthash="1936090" _msttexthash="486252">Direito a Vinhos-Portugueses</li>
+                      <li _msthash="1936090" _msttexthash="486252">Direito a Vinhos-Portugueses e Vinhos-Alemães</li>
+                      <li _msthash="1936090" _msttexthash="486252">Vinhos a partir de 1980</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" _msthash="1885663" _msttexthash="606255">Inscreva-se gratuitamente</button>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" _msthash="1885663" _msttexthash="606255"  onclick="analise()">Inscreva-se e selecione o Produto desejado</button>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm">
                   <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal" _msthash="1615536" _msttexthash="47567">Pró</h4>
+                    <h4 class="my-0 fw-normal" _msthash="1615536" _msttexthash="47567">Plenor</h4>
                   </div>
                   <div class="card-body">
                     <h1 class="card-title pricing-card-title" _msthash="1615432" _msttexthash="92209">$50<small class="text-muted fw-light" _istranslated="1">/mês</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                      <li _msthash="1936129" _msttexthash="477061">5 usuários incluídos</li>
                       <li _msthash="1936259" _msttexthash="401752">Entrega em domicilio</li>
                       <li _msthash="1936389" _msttexthash="744159">Suporte de e-mail prioritário</li>
                       <li _msthash="1936519" _msttexthash="486252">Direito a escolha de 3 vinhos</li>
+                      <li _msthash="1936519" _msttexthash="486252">Vinhos a partir de 1960</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary" _msthash="1886079" _msttexthash="110955">Começar</button>
+                    <button type="button" class="w-100 btn btn-lg btn-primary" _msthash="1886079" _msttexthash="110955" onclick="analise()">Inscreva-se e selecione o Produto desejado </button>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm border-primary">
                   <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal" _msthash="1615900" _msttexthash="94315">Empresa</h4>
+                    <h4 class="my-0 fw-normal" _msthash="1615900" _msttexthash="94315">Senior</h4>
                   </div>
                   <div class="card-body">
                     <h1 class="card-title pricing-card-title" _msthash="1615796" _msttexthash="92781">$100<small class="text-muted fw-light" _istranslated="1">/mês</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li _msthash="1936558" _msttexthash="477152">10 usuários incluídos</li>
+                   <ul class="list-unstyled mt-3 mb-4" >
                       <li _msthash="1936688" _msttexthash="402272">Entrega no local da Empresa</li>
                       <li _msthash="1936818" _msttexthash="634140">Suporte por telefone e e-mail</li>
                       <li _msthash="1936948" _msttexthash="486252">Direito a todos os vinhos no catálago</li>
+                      <li _msthash="1936948" _msttexthash="486252">Vinhos a partir de 1950</li>
                     </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary" _msthash="1886495" _msttexthash="499213">Entre em contato conosco</button>
+                    <button type="button" class="w-100 btn btn-lg btn-primary" _msthash="1886495" _msttexthash="499213" onclick="analise()">Inscreva-se e selecione o Produto desejado</button>
                   </div>
                 </div>
               </div>
@@ -174,7 +175,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" onclick="registro()">Adquirir</button>
                   </div>
                 </div>
               </div>
@@ -198,7 +199,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" onclick="registro()">Adquirir</button>
                   </div>
                 </div>
               </div>
@@ -221,7 +222,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" onclick="registro()">Adquirir</button>
                   </div>
                 </div>
               </div>
@@ -244,7 +245,7 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" onclick="registro()">Adquirir</button>
                   </div>
                 </div>
               </div>
@@ -267,14 +268,13 @@
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" onclick="registro()">Adquirir</button>
                   </div>
                 </div>
               </div>
             </div>
           </main>
-          
-
+ 
           <footer id="rodape">
             <div>
                 <label for="facebok"></label>
@@ -295,5 +295,6 @@
 
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="../js/produtos.js"></script>
 </body>
 </html>

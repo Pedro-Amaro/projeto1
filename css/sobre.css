@@ -20,3 +20,11 @@
  .texto{
         color: rgb(223, 7, 108);
  }
+
+ #story {
+       text-align: center;
+       color: rgb(132, 212, 27);
+ }
+ .rodape-sobre{
+       margin-top: 21%;
+ }

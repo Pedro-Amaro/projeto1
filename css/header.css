@@ -4,6 +4,31 @@
     font-family: 'Dancing Script', cursive;
 }
 
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.container-loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    opacity: 0.6;
+}
+
 .header {
     height: 100vh;
     background-image: url(../Img/02.-kym-ellis-unsplash-1100x560.jpg);
@@ -30,8 +55,8 @@
 .logo {
     color:#669900;
     position: absolute;
-    left: 68%;
-    top: 5%;
+    left: 72%;
+    top: 4%;
     text-transform: uppercase;
 }
 .menu ul {
@@ -61,7 +86,7 @@
 #titulo{
     position: absolute;
     bottom: 0;
-    left: 64%
+    left: 60%
 }
 
 .titulo {
@@ -144,7 +169,7 @@
 #produtos  {
     text-align: center;
     padding: 100px 0;
-    
+    background-color: #c9c9c9;
 }
 #produtos .conteudo>div{
     display: flex;
@@ -156,6 +181,7 @@
     width: 200px;
     height: 200px;
     border-radius: 40%;
+    margin: auto;
 }
 
 .conteudo > div{
@@ -167,5 +193,8 @@
 #rodape {
    display: flex;
    justify-content: center; 
-   margin-left: 15px;
+}
+
+.rodapet {
+    background-color: #c9c9c9;
 }
