@@ -18,3 +18,28 @@
     margin: 0 auto;
 }
 
+/* Responsividade */
+/* X-Large */
+@media (max-width: 1399px)
+{
+}
+
+/* Large */
+@media (max-width: 1199px)
+{
+}
+
+/* Medium */
+@media (max-width: 991px)
+{
+}
+
+/* Small */
+@media (max-width: 767px) 
+{
+ }
+
+/* X-Small */
+@media (max-width: 575px) 
+{
+}
